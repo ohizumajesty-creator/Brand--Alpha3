@@ -3,28 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-
-       <!-- Link to CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Brand.com - Premium Products</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
-<body>
-    <!-- Maja -->
-
-    <header>
-        <h1>Welcome to Our App</h1>
+<body class="home-page">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <span>Brand.com</span>
+            </a>
+            <nav class="main-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="Categories.html">Categories</a>
+                <a href="Shopping Cart.html">Cart</a>
+                <a href="Login.html">Login</a>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="page-2.html">Page 2</a>
-        <a href="page-3.html">Page 3</a>
-        <a href="page-4.html">Page 4</a>
-    </nav>
-
     <main>
-        <h2>Landing Page</h2>
-        <p>This is the homepage of our application.</p>
-    
+        <section class="hero section">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow">New arrivals</span>
+                    <h1>Elevate your style with curated essentials.</h1>
+                    <p>Discover premium products across fashion, lifestyle, and electronics — all designed for modern living.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="Categories.html">Browse Categories</a>
+                        <a class="button button-outline" href="Shopping Cart.html">View Cart</a>
+                    </div>
+                    <div class="stats-grid">
+                        <div>
+                            <strong>120+</strong>
+                            <span>Products</span>
+                        </div>
+                        <div>
+                            <strong>24/7</strong>
+                            <span>Support</span>
+                        </div>
+                        <div>
+                            <strong>30%</strong>
+                            <span>Season Sale</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section featured-categories">
+            <div class="container section-head">
+                <div>
+                    <span class="eyebrow">Shop by category</span>
+                    <h2>Discover products for every moment.</h2>
+                </div>
+                <a class="link-button" href="Categories.html">See all</a>
+            </div>
+            <div class="container card-grid">
+                <article class="category-card category-card-fashion">
+                    <h3>Fashion</h3>
+                    <p>Trending looks, bold essentials, and everyday style.</p>
+                </article>
+                <article class="category-card category-card-electronics">
+                    <h3>Electronics</h3>
+                    <p>Latest gadgets, accessories, and everyday tech upgrades.</p>
+                </article>
+                <article class="category-card category-card-lifestyle">
+                    <h3>Lifestyle</h3>
+                    <p>Upgrade daily living with smart essentials, wellness picks, and modern must-haves.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section newsletter">
+            <div class="container newsletter-card">
+                <div>
+                    <h2>Get first access to new drops.</h2>
+                    <p>Subscribe for exclusive offers, new arrivals, and early access to collections.</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="button button-primary">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Brand.com. Crafted for a modern shopping experience.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="Categories.html">Categories</a>
+                <a href="Login.html">Login</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
