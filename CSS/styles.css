@@ -341,9 +341,9 @@ a {
 
 .category-card-electronics {
     background-image: linear-gradient(rgba(15, 23, 42, 0.25), rgba(15, 23, 42, 0.25)), url("../Images/electronics.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
     background-color: #0f172a;
     min-height: 460px;
     display: flex;
