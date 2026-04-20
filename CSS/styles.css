@@ -456,6 +456,45 @@ input::placeholder {
     font-weight: 700;
 }
 
+.forgot-password {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.forgot-password:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+.divider-or {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0 1.5rem 0;
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.divider-or::before,
+.divider-or::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+}
+
+.social-signin {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
 .page-intro {
     background: transparent;
     padding-bottom: 0;
