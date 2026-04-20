@@ -1,18 +1,18 @@
 :root {
-    color-scheme: light;
+    color-scheme: dark;
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #0f172a;
-    background-color: #eef2ff;
-    --surface: #ffffff;
-    --surface-soft: #f8f9ff;
-    --border: rgba(15, 23, 42, 0.12);
-    --primary: #001a66;
-    --primary-dark: #000d33;
+    color: #ffffff;
+    background-color: #000000;
+    --surface: #1a1a1a;
+    --surface-soft: #2a2a2a;
+    --border: rgba(255, 255, 255, 0.12);
+    --primary: #3b82f6;
+    --primary-dark: #2563eb;
     --accent: #fb7185;
-    --muted: #000000;
-    --text: #0f172a;
+    --muted: #ffffff;
+    --text: #ffffff;
 }
 
 * {
@@ -27,7 +27,7 @@ html {
 
 body {
     min-height: 100vh;
-    background-color: #eef2ff;
+    background-color: #000000;
     color: var(--text);
     font-family: var(--font-family);
 }
@@ -89,7 +89,7 @@ a {
 }
 
 .site-header {
-    background: rgba(255, 255, 255, 0.95);
+    background: #000000;
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
@@ -127,7 +127,7 @@ a {
 }
 
 .main-nav a {
-    color: var(--muted);
+    color: #ffffff;
     font-weight: 500;
     transition: color 0.2s ease;
 }
