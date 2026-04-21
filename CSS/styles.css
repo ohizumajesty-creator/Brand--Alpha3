@@ -197,6 +197,17 @@ a {
     background-color: #1a91da;
 }
 
+.button-google {
+    background-color: #EA4335;
+    color: white;
+    width: 100%;
+    box-shadow: 0 18px 40px rgba(234, 67, 53, 0.14);
+}
+
+.button-google:hover {
+    background-color: #d33425;
+}
+
 .hero {
     padding-top: 1.5rem;
     padding-bottom: 4.25rem;
@@ -512,9 +523,9 @@ input::placeholder {
 
 .social-signin {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.75rem;
     margin-bottom: 2rem;
-    justify-content: center;
 }
 
 .page-intro {
