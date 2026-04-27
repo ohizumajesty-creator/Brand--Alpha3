@@ -17,7 +17,7 @@
 
 **Project Description**
 
-Brand.com is an e-commerce platform designed specifically for college students to easily find trendy and affordable workout clothing. The platform solves the problem of scattered options across different sites by bringing multiple popular brands and trending items into one convenient place.
+Brand.com is an e-commerce platform designed specifically for college students to easily find trendy and affordable workout clothing, electronics and lifestyle products. The platform solves the problem of scattered options across different sites by bringing multiple popular brands and trending items into one convenient place.
 
 ⸻
 
