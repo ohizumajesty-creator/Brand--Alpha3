@@ -1,37 +1,83 @@
 # Bran.com--Alpha3
-Field	Your Answer
-App Name	
-Brand.com
 
-App Type	E-commerce (online clothing store / shopping platform)
-r
+Connect Platform - Project 2
 
-Problem It Solves	Many college students struggle to find trendy and affordable workout clothing in one place. This app solves that problem by combining multiple popular brands and trending items into a single, easy-to-use platform designed specifically for students.
+Team Name/Number: [Metador4]
 
-Page 1 — Name & Description	
-Home Page
-The home page introduces users to the platform with featured categories, trending products, and a visually appealing layout. It includes navigation links, a hero section, and quick access to popular items.
+⸻
 
-Page 2 — Name & Description	
-Categories / Shop Page
-This page allows users to browse products by category (e.g., T-shirts, shoes, socks, sweaters). It displays items with images and prices and helps users easily navigate through different product sections.
+Team Members
 
-Page 3 — Name & Description	
-Shopping Cart Page
-The cart page shows selected items, quantities, prices, and total cost. Users can increase or decrease quantities, apply coupons, and view the final total before checkout.
+* Maja Ohizu
+* Ebenezer Nnonke
+* Amos Ojo
+* Rudy Fuambu
 
-Page 4 — Name & Description (optional but recommended)	
-Login / Account Page
-This page allows users to log into their account using email/password or social media (Facebook, Twitter, Google). It also includes options for registration and password recovery.
+⸻
 
-Key Interactive Feature 1	Product quantity selector in the cart that allows users to increase or decrease item quantities dynamically using “+” and “-” buttons.
+Project Description
 
-Key Interactive Feature 2	Navigation menu that lets users move between pages (Home, Shop, Categories, About, Contact) easily.
+Brand.com is an e-commerce platform designed specifically for college students to easily find trendy and affordable workout clothing. The platform solves the problem of scattered options across different brands by bringing multiple products into one centralized, user-friendly website.
 
+⸻
 
-Key Interactive Feature 3	Clickable product categories and items that guide users to different sections or pages of the website.
+Pages Implemented
 
+1. Home Page (index.html)
+    The home page introduces users to the platform with featured categories, trending products, and a visually appealing layout. It includes a navigation bar, hero section, and quick access to popular items.
+2. Categories / Shop Page (shop.html)
+    This page allows users to browse products by category such as T-shirts, shoes, socks, and sweaters. Items are displayed with images and prices for easy navigation.
+3. Shopping Cart Page (cart.html)
+    The cart page displays selected items, quantities, individual prices, and total cost. Users can adjust quantities, apply coupons, and review their order before checkout.
+4. Login / Account Page (login.html)
+    This page allows users to log in using email/password or social media accounts. It includes registration and password recovery options.
 
-Key Interactive Feature 4	Login system with multiple authentication options (email/password and social logins), including “remember me” and password recovery.
+⸻
 
+Technologies Used
 
+* HTML5
+* CSS3 (Flexbox, Grid, Media Queries)
+* Git & GitHub
+* GitHub Pages
+
+⸻
+
+Key Interactive Features
+
+* Product Quantity Selector
+    Users can increase or decrease item quantities in the cart using “+” and “-” buttons.
+* Navigation Menu
+    Allows users to easily move between pages such as Home, Shop, Categories, and Contact.
+* Clickable Product Categories
+    Users can click on categories and items to navigate through different sections of the website.
+* Login System
+    Includes authentication using email/password and social login options, with features like “remember me” and password recovery.
+
+⸻
+
+Individual Contributions Sample
+
+[Team Member 1 – Maja Ohizu]
+
+* Implemented landing page HTML structure
+* Created responsive navigation bar
+* Designed homepage layout
+
+[Team Member 2 – Ebenezer Nnonke]
+
+* Designed and implemented color scheme
+* Built categories/shop page layout
+* Styled product display sections
+
+[Team Member 3 – Amos Ojo]
+
+* Developed shopping cart functionality
+* Implemented quantity selector and total price calculation
+* Added interactive cart features
+
+[Team Member 4 – Rudy Fuambu]
+
+* Developed login/account page
+* Implemented authentication interface
+* Added user interaction features
