@@ -6,15 +6,13 @@
     <title>Categories - Brand.com</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
-<body>
-    <header class="site-header">
-        <div class="container header-inner">
-            <a href="index.html" class="brand">
-                <span>Brand.com</span>
-            </a>
-            <nav class="main-nav">
+<body id="categories">
+    <header>
+        <div>
+            <a href="index.html">Brand.com</a>
+            <nav aria-label="Main navigation">
                 <a href="index.html">Home</a>
-                <a href="Categories.html" class="active">Categories</a>
+                <a href="Categories.html" aria-current="page">Categories</a>
                 <a href="Shopping Cart.html">Cart</a>
                 <a href="Login.html">Login</a>
             </nav>
@@ -22,25 +20,25 @@
     </header>
 
     <main>
-        <section class="section page-intro">
-            <div class="container">
-                <span class="eyebrow">Categories</span>
+        <section id="intro">
+            <div>
+                <p data-eyebrow>Categories</p>
                 <h1>Choose what fits your lifestyle</h1>
                 <p>Browse our curated collections for fashion and electronics.</p>
             </div>
         </section>
 
-        <section class="section">
-            <div class="container card-grid">
-                <article class="category-card category-card-fashion">
+        <section id="catalog">
+            <div>
+                <article data-category="fashion">
                     <h3>Fashion</h3>
                     <p>Ready-to-wear pieces, premium footwear, and seasonal accessories.</p>
                 </article>
-                <article class="category-card category-card-electronics">
+                <article data-category="electronics">
                     <h3>Electronics</h3>
                     <p>Smart gadgets, audio gear, and next-gen lifestyle tech.</p>
                 </article>
-                <article class="category-card category-card-lifestyle">
+                <article data-category="lifestyle">
                     <h3>Lifestyle</h3>
                     <p>Smart essentials, wellness products, and modern picks for your everyday routine.</p>
                 </article>
@@ -48,14 +46,14 @@
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="container footer-inner">
+    <footer>
+        <div>
             <p>© 2026 Brand.com. Crafted for a modern shopping experience.</p>
-            <div class="footer-links">
+            <nav aria-label="Footer navigation">
                 <a href="index.html">Home</a>
                 <a href="Shopping Cart.html">Cart</a>
                 <a href="Login.html">Login</a>
-            </div>
+            </nav>
         </div>
     </footer>
 </body>

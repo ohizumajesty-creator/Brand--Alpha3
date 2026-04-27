@@ -6,51 +6,49 @@
     <title>Login - Brand.com</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
-<body>
-    <header class="site-header">
-        <div class="container header-inner">
-            <a href="index.html" class="brand">
-                <span>Brand.com</span>
-            </a>
-            <nav class="main-nav">
+<body id="login">
+    <header>
+        <div>
+            <a href="index.html">Brand.com</a>
+            <nav aria-label="Main navigation">
                 <a href="index.html">Home</a>
                 <a href="Categories.html">Categories</a>
                 <a href="Shopping Cart.html">Cart</a>
-                <a href="Login.html" class="active">Login</a>
+                <a href="Login.html" aria-current="page">Login</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="section auth-section">
-            <div class="container auth-card">
-                <div class="auth-info">
-                    <span class="eyebrow">Member access</span>
+        <section id="auth">
+            <div>
+                <header>
+                    <p data-eyebrow>Member access</p>
                     <h1>Sign in to your account</h1>
                     <p>Access your cart, orders, and personalized recommendations.</p>
-                </div>
-                <form class="auth-form">
+                </header>
+                <form>
                     <label for="email">Email address</label>
                     <input id="email" type="email" placeholder="name@example.com" required>
 
                     <label for="password">Password</label>
                     <input id="password" type="password" placeholder="Enter your password" required>
 
-                    <button type="submit" class="button button-primary">Sign in</button>
-                    <p class="auth-note">New here? <a href="Categories.html">Browse collections</a></p>
+                    <button type="submit" data-tone="primary">Sign in</button>
+                    <p>New here? <a href="Categories.html">Browse collections</a></p>
                 </form>
             </div>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="container footer-inner">
+    <footer>
+        <div>
             <p>© 2026 Brand.com. Crafted for a modern shopping experience.</p>
-            <div class="footer-links">
+            <nav aria-label="Footer navigation">
                 <a href="index.html">Home</a>
                 <a href="Categories.html">Categories</a>
                 <a href="Shopping Cart.html">Cart</a>
-            </div>
+            </nav>
         </div>
     </footer>
 </body>
