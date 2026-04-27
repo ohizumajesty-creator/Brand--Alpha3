@@ -1,4 +1,4 @@
-# **Bran.com--Alpha3**
+# **Brand.com--Alpha3**
 
 **Brand.com - Project 2**
 
