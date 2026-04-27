@@ -2,7 +2,7 @@
 
 Connect Platform - Project 2
 
-Team Name/Number: [Metador4]
+Team Name/Number: ALPHA 3
 
 ⸻
 
