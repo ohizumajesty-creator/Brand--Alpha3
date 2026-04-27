@@ -1,6 +1,6 @@
 # Bran.com--Alpha3
 
-Connect Platform - Project 2
+Brand.com - Project 2
 
 Team Name/Number: ALPHA 3
 
